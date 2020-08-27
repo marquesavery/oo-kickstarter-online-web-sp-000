@@ -14,7 +14,7 @@ class Backer
     # binding.pry
     self.backed_projects << project
     # self.backed_projects.last.backers << self.name
-    project.backers << self.name
+    project.backers << self
   end
 
 end
